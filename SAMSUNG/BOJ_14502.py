@@ -46,8 +46,6 @@ def wall(cnt):                          # 벽 3개 선택
                     wall(cnt+1)
                     maps[i][j] = 0
 
-
-maps = []
 n,m = map(int, sys.stdin.readline().split())    # 세로, 가로
 
 for _ in range(n):
