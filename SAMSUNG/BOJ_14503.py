@@ -15,8 +15,9 @@ def turn():                         # 회전
     if d == -1:
         d = 3
 
-
+maps[r][c] = 2              # 현재 위치 청소
 count = 1
+
 turn_count = 0
 
 while True:
